@@ -1,87 +1,90 @@
-# 🏅 Olympics Data Analysis (EDA + ML Project)
+# 🏅 Olympics Data Analysis (EDA + Visualization Project)
 
-📂 **Dataset:** [Download CSV File](#)  
+📂 **Dataset:** [Download CSV File](https://drive.google.com/file/d/1bJrjhTHGVu7kD08GHrO8pUnKXIazEmDi/view?usp=sharing)  
 
 ---
 
-[![Open Part 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
-[![Open Part 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+[![Open Part 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QE_fVTAleblkgRxd_ko7RMGsg5QtMsC5?usp=sharing)
+[![Open Part 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15377FvQf-YC4Hs6TZ6RXdieOdZUenIf6?usp=sharing)
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-yellow?logo=pandas)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-orange?logo=python)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Charts-green?logo=python)
-![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-ML-red?logo=scikit-learn)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive-red?logo=plotly)
 
 ---
 
 ## 🔗 Quick Access
 | 📂 Project Part | 🚀 Description | ▶️ Run on Google Colab |
 |-----------------|----------------|-------------------------|
-| **Part 1 - Data Cleaning & EDA** | Preprocessing Olympic dataset, handling missing values, and analyzing medal trends. | [![Open Part 1](https://colab.research.google.com/assets/colab-badge.svg)](#) |
-| **Part 2 - Advanced Insights & ML** | Country performance, athlete analysis, and medal prediction using ML models. | [![Open Part 2](https://colab.research.google.com/assets/colab-badge.svg)](#) |
+| **Part 1 - Data Cleaning & EDA** | Preprocessing, handling missing values, athlete-wise & country-wise medal analysis. | [![Open Part 1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QE_fVTAleblkgRxd_ko7RMGsg5QtMsC5?usp=sharing) |
+| **Part 2 - Advanced Insights & Visualizations** | Medal trends, country performance over years, sports dominance analysis, and visualization dashboards. | [![Open Part 2](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15377FvQf-YC4Hs6TZ6RXdieOdZUenIf6?usp=sharing) |
 
 ---
 
 ## 🌟 Project Overview
-This project analyzes **120+ years of Olympic Games data (1896 - 2016)** to explore trends in athlete participation, country performances, and medal distributions.  
+This project explores **Olympics dataset spanning 120+ years** of athlete performances and country achievements.  
 
 It consists of two main parts:  
-1. **Data Cleaning & EDA:** Process Olympic datasets, extract features, and explore trends in sports, countries, and athletes.  
-2. **Advanced EDA & ML:** Perform predictive modeling to estimate medal chances based on country stats, athlete attributes, and event history.  
+1. **Data Cleaning & EDA:** Handle missing values, explore athlete distribution, medals by gender, country, and year.  
+2. **Advanced Analysis & Visualization:** Identify top athletes, medal trends, and visualize country dominance in Olympics history.  
 
 ---
 
 ## 🎯 Objectives
-- Analyze **country-wise medal performance** across years.  
-- Track **gender participation growth** in Olympics.  
-- Identify **top-performing athletes and countries**.  
-- Predict **medal outcomes** using ML models.  
-- Explore how **sports popularity & participation** evolved over time.  
+- Analyze **overall Olympics history (1896 – recent)**.  
+- Explore **medal trends** across years, countries, and athletes.  
+- Highlight **top-performing nations and athletes**.  
+- Study **sports dominance** and participation growth.  
+- Build **visualizations** for better storytelling.  
 
 ---
 
 ## 📂 Dataset
-- **Source:** Kaggle - [120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)  
-- **Size:** ~270,000 athlete records  
+- **Source:** Public Olympics Dataset  
+- **Size:** 120+ years of data, 270,000+ rows  
 - **Key Columns:**  
-  - Name, Sex, Age, Height, Weight  
-  - Team, NOC (Country Code)  
-  - Games, Year, Season, Sport, Event  
-  - Medal (Gold/Silver/Bronze/NA)  
+  - Name (Athlete)  
+  - Sex  
+  - Age  
+  - Height / Weight  
+  - Team / NOC  
+  - Games (Year, Season)  
+  - Sport / Event  
+  - Medal (Gold, Silver, Bronze)  
 
 ---
 
 ## 🛠️ Tools & Technologies
 - **Languages:** Python  
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-Learn  
-- **Tools:** Jupyter Notebook, Google Colab, Streamlit (optional dashboard)  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Plotly  
+- **Tools:** Jupyter Notebook, Google Colab  
 
 ---
 
 ## 🔑 Key Steps
 ### 📍 Part 1: Data Cleaning & EDA
-- Removed missing values & duplicates  
-- Extracted athlete attributes (BMI, age groups)  
-- Analyzed **gender participation trends**  
-- Explored **medal counts by country & sport**  
+- Removed duplicates & handled missing values  
+- Athlete participation analysis (male vs female)  
+- Country-wise medal analysis  
+- Yearly medal distribution  
 
-### 📍 Part 2: Advanced Insights & ML
-- Identified **top-performing countries & athletes**  
-- Medal trend analysis across Summer & Winter Olympics  
-- Correlation between **athlete attributes & medals**  
-- Built a **Random Forest Classifier** to predict medal wins  
-- Evaluated with **accuracy, precision & recall**  
+### 📍 Part 2: Advanced Insights
+- Top athletes by total medals  
+- Country dominance across different sports  
+- Medal distribution over time (Summer vs Winter Olympics)  
+- Visualization of top-performing nations  
+- Interactive medal dashboards with Plotly  
 
 ---
 
 ## 📊 Sample Visualizations
-- 📈 **Medals by Country Over Time**  
-- 👨‍👩‍👧 **Growth of Male vs Female Participation**  
-- 🏆 **Top 10 Countries by Gold Medals**  
-- 🏅 **Most Decorated Athletes**  
-- 📊 **Sports Popularity Over the Years**  
-- 📍 **Geographic Medal Distribution Map**  
+- 🏅 **Top 10 Countries by Total Medals**  
+- 📈 **Olympics Participation Growth Over Time**  
+- 👨‍👩‍👧 **Male vs Female Participation Trends**  
+- 🥇 **Most Successful Athletes**  
+- 🌍 **Country-wise Medal Heatmap**  
 
 ---
 
@@ -94,4 +97,4 @@ _Data Analytics Intern @ Unified Mentor | Aspiring Data Scientist_
 
 ---
 
-⭐ If you found this project useful, don’t forget to **star the repo**!  
+⭐ If you found this project useful, don’t forget to **star the repo**!
